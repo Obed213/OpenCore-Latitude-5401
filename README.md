@@ -1,6 +1,8 @@
-## OpenCore Dell Latitude 5401 MacOS Ventura EFI
+# OpenCore Dell Latitude 5401 MacOS Ventura EFI
 
-# Machine factory specs:
+## Machine factory specs:
+| | |
+|-|-|
 |**CPU**|Intel Core i5-9400H (Coffee Lake/Coffee Lake-H/Cannon Lake) 4C 8T|
 |**IGPU**|Intel UHD 630|
 |**SSD**|Micron NVMe 256GB|
@@ -8,12 +10,13 @@
 |**WLAN+BT+WWAN**|Intel Wireless AC 9560 + Bluetooth 5.0 + Intel XMM 7360 Global LTE-Advance|
 |**Audio**|Realtek ALC3204|
 
-# Machine specs post MacOS install:
+## Machine specs post MacOS install:
+| | |
 |**OS**|MacOS 13.6.9 Ventura|
 |**SMBIOS**|MacBook Pro 15,4 (2019)|
 |**SSD**|Change this to any other SSD/NVMe as Micron NVMe are not compatible with Hackintosh|
 
-# Functionality:
+## Functionality:
 |**Built-in Display iGPU Acceleration**|Yes|
 |**Touchscreen**|Yes|
 |**Audio Speakers + Mic**|Yes|
@@ -24,7 +27,7 @@
 |**Trackpad**|Yes|
 |**Camera**|Yes|
 
-# Install quirks and difficulties:
+## Install quirks and difficulties:
 **Disclaimer**: This was very difficult for me to achieve. I couldn't identify the issues when creating the EFI, and I had limited time to get this up and running, so I didn't spend too long trying to clean up the EFI folders any more than I could. This set up is working for me healthily and haven't had an issue using it for over a week now.
 
 **2 EFI folders are present in this repo.**
@@ -37,11 +40,11 @@
     - Does not allow booting to MacOS installer.
     - Allows booting into MacOS post install.
 
-# Images:
+## Images:
 ![MacOS system info](/OpenCore-Latitude-5401/images/MacOS-SystemInfo.png)
 ![Cinebench R32 CPU Score](/OpenCore-Latitude-5401/images/CineBenchR32-CpuSpecs.png)
 
-# Credit and Recognition:
+## Credit and Recognition:
 - OpenCore (Dortania) - Hackintosh.
 - YouTube - for various guides.
 - GitHub - hosting.
