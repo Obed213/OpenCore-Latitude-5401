@@ -7,7 +7,7 @@
 |**iGPU**|Intel UHD 630|
 |**SSD**|Micron NVMe 256GB|
 |**Etherent/RJ45**|Intel i219-LM|
-|**WLAN+BT+WWAN**|Intel Wireless AC 9560 + Bluetooth 5.0 + Intel XMM 7360 Global LTE-Advance|
+|**WLAN+BT+WWAN**|Qualcomm QCA61x4A (DW1820) AC + Bluetooth 4.2 + Intel XMM 7360 Global LTE-Advance|
 |**Audio**|Realtek ALC3204|
 |**Full system specifications**|[Dell Latitude 5401 Owners Manual](Dell_latitude_5401_owners_manual.pdf)|
 
@@ -45,14 +45,14 @@
     - Allows booting into MacOS post install.
 
 ## Images:
-![MacOS system info](images/1.MacOS-SystemInfo.png)
-![Cinebench R32 CPU score](images/2.CineBenchR32-CpuSpecs.png)
-![Black Magic disk benchmark](images/3.BlackMagic-NVMeSpeedTest.png)
-![Nova Bench system info](images/4.NovaBench5.5.3-SystemSPecs.png)
-![Geek Bench syste info](images/5.GeekBench-1-CpuSpecs.png)
-![Geek Bench Metal score](images/5.GeekBench-2-MetalResults.png)
-![Geek Bench Open CL score](images/5.GeekBench-2-OpenCLResults.png)
-![Geek Bench device specs](images/5.GeekBench-3-DeviceSpecs.png)
+![MacOS system info](Images/1.MacOS-SystemInfo.png)
+![Cinebench R32 CPU score](Images/2.CineBenchR32-CpuSpecs.png)
+![Black Magic disk benchmark](Images/3.BlackMagic-NVMeSpeedTest.png)
+![Nova Bench system info](Images/4.NovaBench5.5.3-SystemSPecs.png)
+![Geek Bench syste info](Images/5.GeekBench-1-CpuSpecs.png)
+![Geek Bench Metal score](Images/5.GeekBench-2-MetalResults.png)
+![Geek Bench Open CL score](Images/5.GeekBench-2-OpenCLResults.png)
+![Geek Bench device specs](Images/5.GeekBench-3-DeviceSpecs.png)
 
 ## Credit and Recognition:
 - OpenCore (Dortania) - Hackintosh.
