@@ -9,6 +9,7 @@
 |**Etherent/RJ45**|Intel i219-LM|
 |**WLAN+BT+WWAN**|Intel Wireless AC 9560 + Bluetooth 5.0 + Intel XMM 7360 Global LTE-Advance|
 |**Audio**|Realtek ALC3204|
+|**Full system specifications**|[Dell Latitude 5401 Owners Manual](Dell_latitude_5401_owners_manual.pdf)|
 
 ## Machine specs post MacOS install:
 | | |
