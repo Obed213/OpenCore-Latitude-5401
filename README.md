@@ -4,19 +4,22 @@
 | | |
 |-|-|
 |**CPU**|Intel Core i5-9400H (Coffee Lake/Coffee Lake-H/Cannon Lake) 4C 8T|
-|**IGPU**|Intel UHD 630|
+|**iGPU**|Intel UHD 630|
 |**SSD**|Micron NVMe 256GB|
-|**Etherent/RJ45**|Intel I219-LM|
+|**Etherent/RJ45**|Intel i219-LM|
 |**WLAN+BT+WWAN**|Intel Wireless AC 9560 + Bluetooth 5.0 + Intel XMM 7360 Global LTE-Advance|
 |**Audio**|Realtek ALC3204|
 
 ## Machine specs post MacOS install:
 | | |
+|-|-|
 |**OS**|MacOS 13.6.9 Ventura|
 |**SMBIOS**|MacBook Pro 15,4 (2019)|
 |**SSD**|Change this to any other SSD/NVMe as Micron NVMe are not compatible with Hackintosh|
 
 ## Functionality:
+| | |
+|-|-|
 |**Built-in Display iGPU Acceleration**|Yes|
 |**Touchscreen**|Yes|
 |**Audio Speakers + Mic**|Yes|
@@ -31,18 +34,24 @@
 **Disclaimer**: This was very difficult for me to achieve. I couldn't identify the issues when creating the EFI, and I had limited time to get this up and running, so I didn't spend too long trying to clean up the EFI folders any more than I could. This set up is working for me healthily and haven't had an issue using it for over a week now.
 
 **2 EFI folders are present in this repo.**
-- Folder = **1. EFI (for installing):** 
+- Folder = **1.EFI (for installing):** 
     - For installing MacOS Ventura 13.6.9.
     - This folder also works for daily usage, but the EFI is heavy and includes many default items that are not required.
     - Some things are not working, such as camera, bluetooth and USB-A ports.
 
-- Folder = **2. EFI (refined):**
+- Folder = **2.EFI (refined):**
     - Does not allow booting to MacOS installer.
     - Allows booting into MacOS post install.
 
 ## Images:
-![MacOS system info](/OpenCore-Latitude-5401/images/MacOS-SystemInfo.png)
-![Cinebench R32 CPU Score](/OpenCore-Latitude-5401/images/CineBenchR32-CpuSpecs.png)
+![MacOS system info](images/1.MacOS-SystemInfo.png)
+![Cinebench R32 CPU score](images/2.CineBenchR32-CpuSpecs.png)
+![Black Magic disk benchmark](images/3.BlackMagic-NVMeSpeedTest.png)
+![Nova Bench system info](images/4.NovaBench5.5.3-SystemSPecs.png)
+![Geek Bench syste info](images/5.GeekBench-1-CpuSpecs.png)
+![Geek Bench Metal score](images/5.GeekBench-2-MetalResults.png)
+![Geek Bench Open CL score](images/5.GeekBench-2-OpenCLResults.png)
+![Geek Bench device specs](images/5.GeekBench-3-DeviceSpecs.png)
 
 ## Credit and Recognition:
 - OpenCore (Dortania) - Hackintosh.
