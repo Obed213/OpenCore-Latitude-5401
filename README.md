@@ -25,11 +25,12 @@
 |**Touchscreen**|Yes|
 |**Audio Speakers + Mic**|Yes|
 |**USB-A + USB-C**|Yes|
-|**USB-C Thunderbolt**|Unsure|
+|**USB-C Thunderbolt**|Display out only, pheriperals from the dock aren't recognised|
 |**Wifi+Bluetooth**|Yes|
 |**Cellular WWAN**|Unsure|
 |**Trackpad**|Yes|
 |**Camera**|Yes|
+|**HDMI**|No|
 
 ## Install quirks and difficulties:
 **Disclaimer**: This was very difficult for me to achieve. I couldn't identify the issues when creating the EFI, and I had limited time to get this up and running, so I didn't spend too long trying to clean up the EFI folders any more than I could. This set up is working for me healthily and haven't had an issue using it for over a week now.
@@ -39,6 +40,12 @@
     - For installing MacOS Ventura 13.6.9.
     - This folder also works for daily usage, but the EFI is heavy and includes many default items that are not required.
     - Some things are not working, such as camera, bluetooth and USB-A ports.
+    - Install process:
+        - Began installing from USB-A ports.
+        - Verbose text stopped evenntually and would return a distorted image, you cannot read text.
+        - I then swapped from the USB-A port to USB-C mid installation, the installer then continued to load and proceeded to the MacOS Installer screen. 
+        - The installation ran normally after that.
+        - See the USB key I used in the images below.
 
 - Folder = **2.EFI (refined):**
     - Does not allow booting to MacOS installer.
@@ -53,6 +60,7 @@
 ![Geek Bench Metal score](Images/5.GeekBench-2-MetalResults.png)
 ![Geek Bench Open CL score](Images/5.GeekBench-2-OpenCLResults.png)
 ![Geek Bench device specs](Images/5.GeekBench-3-DeviceSpecs.png)
+![USB stick I used](Images/6.USB_stick_used.png)
 
 ## Credit and Recognition:
 - OpenCore (Dortania) - Hackintosh.
